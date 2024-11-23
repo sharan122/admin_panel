@@ -3,5 +3,6 @@ from . import views
 
 urlpatterns = [
     path('',views.printerr),
+    path('vaishnav/',views.vaishnav)
     
 ]
