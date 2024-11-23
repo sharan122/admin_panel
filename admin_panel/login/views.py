@@ -10,3 +10,7 @@ def test(request):
     return HttpResponse("success")
 def test2(request):
     return HttpResponse("testing purpose")
+
+
+def sharan(request):
+    return HttpResponse("testing purpose sharan")
