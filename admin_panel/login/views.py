@@ -10,3 +10,6 @@ def test(request):
     return HttpResponse("success")
 def test2(request):
     return HttpResponse("testing purpose")
+
+def nanda_kishor(request):
+    return HttpResponse("Nandu bhaii")
