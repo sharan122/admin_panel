@@ -10,3 +10,8 @@ def test(request):
     return HttpResponse("success")
 def test2(request):
     return HttpResponse("testing purpose")
+
+
+
+def drf_rabeeh(request):
+    return HttpResponse('Hello rabeeh')
