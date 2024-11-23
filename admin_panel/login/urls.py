@@ -3,6 +3,5 @@ from . import views
 
 urlpatterns = [
     path('',views.printerr),
-    path('',views.nanda_kishor),
     
 ]

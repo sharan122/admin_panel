@@ -13,3 +13,12 @@ def test2(request):
 
 def nanda_kishor(request):
     return HttpResponse("Nandu bhaii")
+
+
+def drf_rabeeh(request):
+    return HttpResponse('Hello rabeeh')
+def vaishnav(req):
+    return HttpResponse('vaishnav')
+
+def sharan(request):
+    return HttpResponse("testing purpose sharan")
