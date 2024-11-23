@@ -8,3 +8,5 @@ def printerr(request):
 
 def test(request):
     return HttpResponse("success")
+def test2(request):
+    return HttpResponse("testing purpose")
