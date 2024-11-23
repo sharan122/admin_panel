@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def printerr(request):
     return HttpResponse("Hello, World!")
+
+def test(request):
+    return HttpResponse("success")
